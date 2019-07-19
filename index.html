@@ -5,9 +5,11 @@
 </head>
 
 <body>
-  <form>
+  <form action="./index.html" method="POST">
     <input id="x" type="hidden" name="content">
     <trix-editor input="x" class="trix-content"></trix-editor>
+
+    <input type="submit" value="submit" />
   </form>
 
   <script type="text/javascript" src="node_modules/trix/dist/trix.js"></script>
